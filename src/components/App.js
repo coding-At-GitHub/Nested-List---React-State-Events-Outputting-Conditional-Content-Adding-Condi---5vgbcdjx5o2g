@@ -156,8 +156,7 @@ const states = [
 ];
 
 function App() {
-  return (
-    <div id="main">
+  return <div id="main">
       <div>
         {states.map((stateName, stateId) => {
           return (
@@ -170,8 +169,7 @@ function App() {
           );
         })}
       </div>
-    </div>
-  );
+  </div>;
 }
 
 export default App;
